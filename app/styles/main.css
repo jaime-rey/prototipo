@@ -1,7 +1,10 @@
 /* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+body{
+  padding-top: 50px;
+}
+
+.carousel-image{
+  width: 100%;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -77,3 +80,14 @@ body {
     border-bottom: 0;
   }
 }
+.nuestra-propuesta {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+}
+
+.thumbnails img{
+  width:100%}
