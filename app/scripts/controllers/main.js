@@ -9,7 +9,14 @@
  */
 angular.module('prototipoApp')
   .controller('MainCtrl', function ($scope) {
-    var baseURL='http://placeimg.com/960/450/';
+
+    $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+
+    var baseURL='http://lorempixel.com/960/450/';
     $scope.setInterval=5000;
 
     $scope.slides = [
@@ -31,20 +38,20 @@ angular.module('prototipoApp')
     ];
 
 // Modelo para los tres bloques de contenidos
-    var baseURL='http://placeimg.com/200/200/'
+    var baseURLMini='http://lorempixel.com/200/200/';
     $scope.contenido=[
       {
-        img:baseURL+'people',
+        img:baseURLMini+'people',
         title:'Sobre Nosotros',
         sumario:'Somos una empresa comprometida con la vida sana'
       },
       {
-        img:baseURL+'business',
+        img:baseURLMini+'business',
         title:'Nuestros Servicios',
         sumario:'Ofrecemos asesoría profesional para mantenerse Sanos, buena alimentación, cuales son los mejores ejercicios para tí, etc.'
       },
       {
-        img:baseURL+'transport',
+        img:baseURLMini+'transport',
         title:'Contáctanos',
         sumario:'#333, Buena vida Online, Plaza Central, Durance, Zip-432167'
       }

@@ -90,4 +90,30 @@ body{
 }
 
 .thumbnails img{
-  width:100%}
+  width:100%
+}
+
+.gridStyles{
+  width: 940px;
+  height: 300px;
+}
+
+.ngRow.even {
+  background-color: aliceblue;
+}
+
+.ngRow.odd {
+  background-color: darkseagreen;
+}
+
+.modal-body input{
+  display: block;
+}
+
+.ng-valid{
+  border: thin solid #090;
+}
+
+.ng-invalid{
+  border: thin solid #900;
+}
